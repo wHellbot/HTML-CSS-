@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Главная</title>
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font.css"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="scripts/script_index.js"></script>
+</head>
+
+<body>
+<!-- <header class="header">
+    <div class="container">
+        <a id="home"></a>
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="index.html"><img alt="" src="images/logo.png"/></a>
+            </div>
+            <div class="header__text">
+                Устраним любую сантехническую проблему!<br/>
+                Оперативный <span>выезд в течение 45 минут.</span>
+            </div>
+            <div class="header__phone">
+                <a href="#" target="_self"
+                ><img src="images/phone-call%20%201.png" alt="photo"/> 8 800
+                    <span>34-34-500</span></a
+                >
+                <div>Режим работы: 10:00 - 21:00</div>
+            </div>
+            <div class="header__btn">
+                <div id="modal-btn" class="text-box button">
+                    <a href="#" class="btn btn-white btn-animate">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
+            </div>
+        <div class="header__nav">
+            <nav class="stroke header__nav__menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <div class="dropbtn">
+                                <a href="services_index.html">Услуги<span class="icon-angle-down"></span></a>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="info1_index.html">Очистка засоров</a>
+                                <a href="info2_index.html">Установка раковин</a>
+                                <a href="info3_index.html">Установка ванн</a>
+                                <a href="info4_index.html">Установка унитазов</a>
+                                <a href="services_index.html">Другие...</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#masters">Наши Мастера</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__bot">
+            <form action="#" class="header__bot__item" method="get">
+                <div class="header__bot__item__title">Заказать выезд мастера</div>
+                <div class="header__bot__item__texts">
+                    Просто оставьте свои контакты: мастер сам перезвонит<br/>
+                    в кратчайшие сроки!
+                </div>
+                <div class="header__bot__item__form">
+                    <input class="header__bot__item__form__name" name="username" placeholder="Ваше Имя" type="text"/>
+                    <input
+                            class="header__bot__item__form__tel"
+                            name="usertel"
+                            placeholder="+375 (__) __-__-___"
+                            type="tel"
+                    />
+                    <textarea
+                            class="header__bot__item__form__question"
+                            name="userquestion"
+                            placeholder="Задать любой интересующий Вас вопрос"
+                            required
+                            wrap="hard"
+                    ></textarea>
+                    <div class="header__bot__btn__form">
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-animate"
+                            >ЗАКАЗАТЬ ЗВОНОК</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="header__bot__img">
+                <img alt="" src="images/plumber-pointing-lateral2%201.png"/>
+            </div>
+        </div>
+    </div>
+</header> -->
+<header class="header">
+    <div class="container">
+        <a id="home"></a>
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="index.html"><img alt="" src="images/logo.png"/></a>
+            </div>
+            <div class="header__text">
+                Устраним любую сантехническую проблему!<br/>
+                Оперативный <span>выезд в течение 45 минут.</span>
+            </div>
+            <div class="header__phone">
+                <a href="#" target="_self"
+                ><img src="images/phone-call%20%201.png" alt="photo"/> 8 800
+                    <span>34-34-500</span></a
+                >
+                <div>Режим работы: 10:00 - 21:00</div>
+            </div>
+            <div class="header__btn">
+                <div id="modal-btn" class="text-box button">
+                    <a href="#" class="btn btn-white btn-animate">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
+            </div>
+        <div class="header__nav">
+            <nav class="stroke header__nav__menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <div class="dropbtn">
+                                <a href="services_index.html">Услуги<span class="icon-angle-down"></span></a>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="info1_index.html">Очистка засоров</a>
+                                <a href="info2_index.html">Установка раковин</a>
+                                <a href="info3_index.html">Установка ванн</a>
+                                <a href="info4_index.html">Установка унитазов</a>
+                                <a href="services_index.html">Другие...</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#masters">Наши Мастера</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__bot">
+            <form action="#" class="header__bot__item" method="get">
+                <div class="header__bot__item__title">Заказать выезд мастера</div>
+                <div class="header__bot__item__texts">
+                    Просто оставьте свои контакты: мастер сам перезвонит<br/>
+                    в кратчайшие сроки!
+                </div>
+                <div class="header__bot__item__form">
+                    <input class="header__bot__item__form__name" name="username" placeholder="Ваше Имя" type="text"/>
+                    <input
+                            class="header__bot__item__form__tel"
+                            name="usertel"
+                            placeholder="+375 (__) __-__-___"
+                            type="tel"
+                    />
+                    <textarea
+                            class="header__bot__item__form__question"
+                            name="userquestion"
+                            placeholder="Задать любой интересующий Вас вопрос"
+                            required
+                            wrap="hard"
+                    ></textarea>
+                    <div class="header__bot__btn__form">
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-animate"
+                            >ЗАКАЗАТЬ ЗВОНОК</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="header__bot__img">
+                <img alt="" src="images/plumber-pointing-lateral2%201.png"/>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="masters">
+    <a id="masters"></a>
+    <section class="container">
+        <div class="masters__top">
+            <div class="masters__top__title">Наши мастера</div>
+            <div class="masters__top__items">
+                <div class="masters__top__item">
+                    <img alt="" src="images/Mask%20Group.png"/>
+                    <div class="masters__top__item__name">Сергей Иванов</div>
+                    <div class="masters__top__item__text">
+                        Услуги сантехника могут<br/>
+                        потребоваться при самых<br/>
+                        разных обстоятельствах: на<br/>
+                        этапе возведения объекта,<br/>
+                        при капитальном ремонте<br/>
+                        или же на бытовом уровне.<br/>
+                    </div>
+                </div>
+                <div class="masters__top__item">
+                    <img alt="" src="images/Mask%20Group.png"/>
+                    <div class="masters__top__item__name">Сергей Иванов</div>
+                    <div class="masters__top__item__text">
+                        Услуги сантехника могут<br/>
+                        потребоваться при самых<br/>
+                        разных обстоятельствах: на<br/>
+                        этапе возведения объекта,<br/>
+                        при капитальном ремонте<br/>
+                        или же на бытовом уровне.<br/>
+                    </div>
+                </div>
+                <div class="masters__top__item">
+                    <img alt="" src="images/Mask%20Group.png"/>
+                    <div class="masters__top__item__name">Сергей Иванов</div>
+                    <div class="masters__top__item__text">
+                        Услуги сантехника могут<br/>
+                        потребоваться при самых<br/>
+                        разных обстоятельствах: на<br/>
+                        этапе возведения объекта,<br/>
+                        при капитальном ремонте<br/>
+                        или же на бытовом уровне.<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="masters__bot">
+            <div class="masters__bot__title">Пару слов о нашей работе</div>
+            <div class="masters__bot__text">
+                Мы – компания, которая оказывает все виды сантехнических услуг в
+                городе и области. В списке наших постоянных клиентов сотни частных
+                лиц и множество организаций и предприятий. На отечественном рынке
+                сантехнических услуг мы работаем уже более 10 лет. Если вам
+                требуются сантехники в Минске квалифицированные с большим опытом
+                работы, то рациональней всего вызвать сантехника в Минске в нашей
+                компании.<br/>
+                Проконсультироваться по всем возникшим вопросам, уточнить
+                ориентировочную стоимость необходимых вам услуг, оформить заявку на
+                вызов мастера можно по указанному в шапке сайта номеру телефона.
+                Также вы можете оставить сообщение в онлайн-мессенджере, укажите
+                контактные данные, и наши специалисты свяжутся с вами в рабочее
+                время.
+            </div>
+        </div>
+    </section>
+</main>
+<main class="reviews">
+    <a id="reviews"></a>
+    <section class="container">
+        <div class="reviews__title">
+            <div class="reviews__title__text">Отзывы довольных клиентов</div>
+        </div>
+        <div class="reviews__items">
+            <ul class="slides">
+                <input type="radio" name="radio-btn" id="sld-1" checked/>
+                <li class="slide-container">
+                    <div class="slide">
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <label for="sld-5" class="prev">&#x2039;</label>
+                        <label for="sld-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-btn" id="sld-2"/>
+                <li class="slide-container">
+                    <div class="slide">
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <label for="sld-1" class="prev">&#x2039;</label>
+                        <label for="sld-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-btn" id="sld-3"/>
+                <li class="slide-container">
+                    <div class="slide">
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <label for="sld-2" class="prev">&#x2039;</label>
+                        <label for="sld-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-btn" id="sld-4"/>
+                <li class="slide-container">
+                    <div class="slide">
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <label for="sld-3" class="prev">&#x2039;</label>
+                        <label for="sld-5" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <input type="radio" name="radio-btn" id="sld-5"/>
+                <li class="slide-container">
+                    <div class="slide">
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item__title">
+                                <img
+                                        alt="photo"
+                                        class="reviews__item__title__photo"
+                                        src="images/Mask%20Group%20(2).png"
+                                />
+                                <div class="reviews__item__title__name">Лидия</div>
+                            </div>
+                            <div class="reviews__item__text">
+                                Ребята порадовали быстрым выездом и отличным качеством
+                                работы. В следующий раз буду обращаться строго к ним!
+                            </div>
+                            <div class="reviews__item__rating">
+                                <div class="reviews__item__rating__text">Оценка:</div>
+                                <div class="rating-mini">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <label for="sld-4" class="prev">&#x2039;</label>
+                        <label for="sld-1" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <li class="nav-dots">
+                    <label for="sld-1" class="nav-dot" id="sld-dot-1"></label>
+                    <label for="sld-2" class="nav-dot" id="sld-dot-2"></label>
+                    <label for="sld-3" class="nav-dot" id="sld-dot-3"></label>
+                    <label for="sld-4" class="nav-dot" id="sld-dot-4"></label>
+                    <label for="sld-5" class="nav-dot" id="sld-dot-5"></label>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+<main class="advantages">
+    <a id="advantages"></a>
+    <section class="container">
+        <div>
+            <div class="advantages__top__title">Наши преумущества</div>
+            <div class="advantages__top__items">
+                <div class="advantages__top__item">
+                    <div class="advantages__top__item__izo">
+                        <img alt="icon" src="images/Group%201.png"/>
+                    </div>
+                    <div class="advantages__top__item__title">Бесплатный выезд</div>
+                    <div class="advantages__top__item__text">
+                        Мастер приедет по адресу и проведет расчет стоимости работ
+                        совершенно бесплатно
+                    </div>
+                </div>
+                <div class="advantages__top__item">
+                    <div class="advantages__top__item__izo">
+                        <img alt="icon" src="images/Group%202.png"/>
+                    </div>
+                    <div class="advantages__top__item__title">
+                        Богатый опыт работы
+                    </div>
+                    <div class="advantages__top__item__text">
+                        Наши мастера обладают двенадцатилетним опытом устранения
+                        сантехнических проблем
+                    </div>
+                </div>
+                <div class="advantages__top__item">
+                    <div class="advantages__top__item__izo">
+                        <img alt="icon" src="images/Group%203.png"/>
+                    </div>
+                    <div class="advantages__top__item__title">Оперативность</div>
+                    <div class="advantages__top__item__text">
+                        Среднее время между обращением и выездом мастера у нас - всего
+                        45 минут
+                    </div>
+                </div>
+                <div class="advantages__top__item">
+                    <div class="advantages__top__item__izo">
+                        <img alt="icon" src="images/Group%204.png"/>
+                    </div>
+                    <div class="advantages__top__item__title">Поможем с закупкой</div>
+                    <div class="advantages__top__item__text">
+                        Если для устранения проблемы нужны расходные материалы - мастер
+                        сам привезет все необходимое
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantages__bot">
+            <div>
+                <iframe
+                        class="advantages__bot__map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2451.264701137092!2d23.6867867!3d52
+            .093114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210befc55fd5eb%3A0x3e94705f35b5be02!2z0YPQuy4g0JzQsNGP0
+            LrQvtCy0YHQutC-0LPQviA5LCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1611325011585!5m2!1sru!2sby"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"
+                ></iframe>
+            </div>
+            <div class="advantages__bot__address">
+                <div class="advantages__bot__address__title">
+                    Адрес нашей организации
+                </div>
+                <div class="advantages__bot__address__text">
+                    Брест, улица Маяковского, дом 9
+                </div>
+                <div class="advantages__bot__address__contact">
+                    <a
+                    ><img src="images/phone-call%20%201.png" alt="photo"/> 8
+                        800<span> 34-34-500</span></a
+                    ><br/>
+                    Режим работы: 10:00 - 21:00
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <img
+            class="footer__aside__izo1"
+            src="images/Rectangle%2015.png"
+            alt="izo"
+    />
+    <img
+            class="footer__aside__izo2"
+            src="images/Rectangle%2016.png"
+            alt="izo"
+    />
+    <section class="container">
+        <div class="footer__top">
+            <div class="footer__logo">
+                <a href="#home"><img alt="" src="images/logo_footer.png"/></a>
+            </div>
+            <div class="footer__btn">
+                <div class="text-box">
+                    <a href="#" class="btn btn-blu btn-animate">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__nav">
+            <div class="footer__nav__main">
+                <div class="footer__nav__main__title">Карта сайта:</div>
+                <ul class="footer__nav__main__links1">
+                    <li><a href="#" target="_self">ГЛАВНАЯ</a></li>
+                    <li><a href="#" target="_self">УСЛУГИ</a></li>
+                    <li><a href="#" target="_self">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="footer__nav__services">
+                <div class="footer__nav__main__title">Наши услуги:</div>
+                <div class="footer__nav__main__links2">
+                    <ul>
+                        <li>
+                            <a href="info1_index.html" target="_self">ОЧИСТКА ЗАСОРОВ</a>
+                        </li>
+                        <li><a href="#" target="_self">УСТАНОВКА САНТЕХНИКИ</a></li>
+                        <li><a href="#" target="_self">ГЕРМЕТИЗАЦИЯ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" target="_self">ОЧИСТКА ЗАСОРОВ</a></li>
+                        <li><a href="#" target="_self">УСТАНОВКА САНТЕХНИКИ</a></li>
+                        <li><a href="#" target="_self">ГЕРМЕТИЗАЦИЯ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services__contacts">
+                <div class="services__contacts__phone">
+                    <a
+                    ><img src="images/phone-call%20%201.png" alt="photo"/> 8
+                        800<span> 34-34-500</span></a
+                    ><br/>
+                    Режим работы: 10:00 - 21:00
+                </div>
+                <div>
+                    <div class="services__contacts__text">Мы в соцсетях:</div>
+                    <div class="services__contacts__soc">
+                        <a href="https://vk.com/" target="_blank"
+                        ><span class="icon-vk"></span
+                        ></a>
+                        <a href="https://www.facebook.com/" target="_blank"
+                        ><span class="icon-facebook2"></span
+                        ></a>
+                        <a href="https://plus.google.com/" target="_blank"
+                        ><span class="icon-google-plus2"></span
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="footer__aside">
+            <div class="footer__aside__left">Все права защищены. © 2021</div>
+            <div class="footer__aside__right">
+                <div>Политика конфиденциальности</div>
+                <div>Файлы cookie</div>
+            </div>
+        </aside>
+    </section>
+</footer>
+<script src="scripts/script_index.js"></script>
+</body>
+<script src="scripts/script_index.js"></script>
+</html>
